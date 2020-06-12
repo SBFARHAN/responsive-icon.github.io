@@ -1,0 +1,157 @@
+/* Basis Style */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to top,rgba(248, 231, 205, 1) ,rgba(216, 199, 218, 1) );
+}
+
+/*! Main Container  Style*/
+
+.main_container{
+    width: 62rem;
+    height: 15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #ececee; */
+}
+
+.h1_head{
+    font-size: 4.8rem;
+    margin: 0 0 3rem 0;
+    /* background-color: rgb(93, 93, 214); */
+}
+
+.all_icon{
+    display: flex;
+    justify-content: center;
+}
+
+.all_icon a{
+    width: 6rem;
+    height: 6rem;
+    margin: 0 2rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9rem;
+    /* background-color: lightseagreen; */
+    font-size: 3.5rem;
+    color: black;
+    border: 2px solid #000000;
+    transition: transform 0.3s ease;
+}
+
+.all_icon a:last-child{
+    margin: 0rem;
+}
+
+.all_icon a:hover{
+    transform: translateY(-2px);
+}
+
+.all_icon a:hover{
+    transform: scale(1.15);
+}
+
+.youtube:hover{
+    color: #cd201f;
+}
+.steam:hover{
+    color: #14234D;
+}
+.twitter:hover{
+    color: #55acee;
+}
+.discord:hover{
+    color: #8899F7;
+}
+.line:hover{
+    color: #00c300;
+}
+
+@media screen and (max-width: 870px){
+
+    .main_container{
+        width: 48rem;
+        height: 12rem;
+    }
+    
+    .h1_head{
+        font-size: 3.7rem;
+        margin: 0 0 3rem 0;
+        text-align: center;
+        /* background-color: rgb(93, 93, 214); */
+    }
+
+    .all_icon a{
+        width: 5rem;
+        height: 5rem;
+        font-size: 3.0rem;
+        border-radius: 0.5rem;
+        margin: 0 2rem 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 485px){
+
+    .main_container{
+        width: 38rem;
+        height: 12rem;
+    }
+    
+    .h1_head{
+        font-size: 2.7rem;
+        margin: 0 0 3rem 0;
+        text-align: center;
+        /* background-color: rgb(93, 93, 214); */
+    }
+
+    .all_icon a{
+        width: 4rem;
+        height: 4rem;
+        font-size: 2.0rem;
+        border-radius: 0.5rem;
+        margin: 0 2rem 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 395px){
+
+    .main_container{
+        width: 28rem;
+        height: 8rem;
+    }
+    
+    .h1_head{
+        font-size: 2.2rem;
+        margin: 0 0 2.5rem 0;
+        text-align: center;
+        /* background-color: rgb(93, 93, 214); */
+    }
+
+    .all_icon a{
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 2.4rem;
+        border-radius: 0.5rem;
+        margin: 0 2rem 0 0;
+    }
+    
+}
